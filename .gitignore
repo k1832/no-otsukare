@@ -1,4 +1,4 @@
-build/
+_site/
 build-artifacts/
 test-results/
 workflow/
@@ -175,4 +175,3 @@ dist
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,yarn
-

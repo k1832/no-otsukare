@@ -1,4 +1,4 @@
 !/.*
-/build/
+/_site/
 /locales/messages.js
 /vendor/eleventy-plugin-i18n-gettext/tests/

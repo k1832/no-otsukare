@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+  
+  <head>
+    <title>No お疲れ様</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <!-- primary meta -->
+    <meta name="title" content="No お疲れ様" />
+    <meta name="description" content="挨拶だけのメッセージを送らないで" />
+    <!-- opengraph/facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://no-otsukare.com/" />
+    <meta property="og:title" content="No お疲れ様" />
+    <meta
+      property="og:description"
+      content="挨拶だけのメッセージを送らないで"
+    />
+    <meta property="og:image" content="https://no-otsukare.com/img/XzfE_FYNGc-500.webp" />
+    <!-- twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://no-otsukare.com/" />
+    <meta property="twitter:title" content="No お疲れ様" />
+    <meta
+      property="twitter:description"
+      content="挨拶だけのメッセージを送らないで"
+    />
+    <meta property="twitter:image" content="https://no-otsukare.com/img/XzfE_FYNGc-500.webp" />
+    <!-- icons -->
+    <link rel="apple-touch-icon" href="/img/rduOO4qVxo-180.webp" />
+    <link rel="shortcut icon" href="/img/xJUIlk3eTz-180.webp" type="image/x-icon" />
+    <link rel="icon" href="/img/xJUIlk3eTz-180.webp" type="image/x-icon" />
+
+    
+    <link rel="alternate" hreflang="ja" href="https://no-otsukare.com/ja" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://no-otsukare.com/" />
+  </head>
+  <body>
+    <script type="module">
+import { languageMatcher } from '/js/languageMatcher.js';
+
+const langs = ['ja',];
+
+const base = langs[0];
+const preferred = localStorage.getItem('lang');
+
+const destination = languageMatcher(langs, base, preferred, navigator.language);
+window.location = destination;
+</script>
+
+  </body>
+</html>

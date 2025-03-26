@@ -19,7 +19,7 @@ msgid "header.subtitle"
 msgstr "挨拶だけのメッセージを送らないで"
 
 msgid "header.introduction"
-msgstr "誰かから電話がかかってきて、\"お疲れ様です\"とだけ言われて保留されることを想像してみてください……🤦‍♀️"
+msgstr "誰かから電話がかかってきて、<br/>\"お疲れ様です\"とだけ言われて保留されることを想像してみてください……🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "ティム"

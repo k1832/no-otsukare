@@ -2,6 +2,15 @@
 <html lang="{{ lang }}" dir="{{ langDir }}">
   {% set fullTitle = [_(title), 'No お疲れ様'] | select() | join(' - ') %}
   <head>
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPE266136C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MPE266136C');
+    </script>
     <title>{{ fullTitle }}</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

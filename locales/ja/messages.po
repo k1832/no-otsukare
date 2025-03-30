@@ -19,7 +19,7 @@ msgid "header.subtitle"
 msgstr "挨拶だけのメッセージを送らないで"
 
 msgid "header.introduction"
-msgstr "誰かから電話がかかってきて、<br/>\"お疲れ様です\"とだけ言われて保留されることを想像してみてください……🤦‍♀️"
+msgstr "誰かから電話がかかってきて、<br/>\"お疲れ様です\"とだけ言われて保留されることを想像してみてください...🤦‍♀️"
 
 msgid "example.character.neutral.name"
 msgstr "ティム"
@@ -104,7 +104,7 @@ msgid "example.good.message1.timestamp"
 msgstr "2:15 PM"
 
 msgid "example.good.message1.body"
-msgstr "やほ～！あれは何時だったっけ？"
+msgstr "やほ～！今日のコーヒーの約束何時だっけ？"
 
 msgid "example.good.reply1.timestamp"
 msgstr "2:15 PM"

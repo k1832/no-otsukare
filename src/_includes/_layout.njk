@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>{{ fullTitle }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.basePath }}/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <!-- primary meta -->
@@ -30,7 +30,7 @@
       property="og:description"
       content="{{ _("header.subtitle") }}"
     />
-    <meta property="og:image" content="{{ site.root }}{%- imageURL "./src/img/newmeta.png", { format: "webp" } -%}" />
+    <meta property="og:image" content="{{ site.origin }}{%- imageURL "./src/img/newmeta.png", { format: "webp" } -%}" />
     <!-- twitter -->
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:url" content="{{ site.root }}/" />
@@ -39,7 +39,7 @@
       property="twitter:description"
       content="{{ _("header.subtitle") }}"
     />
-    <meta property="twitter:image" content="{{ site.root }}{%- imageURL "./src/img/newmeta.png", { format: "webp" } -%}" />
+    <meta property="twitter:image" content="{{ site.origin }}{%- imageURL "./src/img/newmeta.png", { format: "webp" } -%}" />
     <!-- icons -->
     <link rel="apple-touch-icon" href="{%- imageURL "./src/img/apple-touch-icon.png", { format: "webp" } -%}" />
     <link rel="shortcut icon" href="{%- imageURL "./src/img/favicon.png", { format: "webp" } -%}" type="image/x-icon" />

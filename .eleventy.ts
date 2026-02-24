@@ -4,6 +4,7 @@ import Image from '@11ty/eleventy-img';
 const imagify = async (src, options = {}) => {
   const defaults = {
     outputDir: './_site/img/',
+    urlPath: '/no-otsukare/img/',
   };
 
   const metadata = await Image(src, { ...defaults, ...options });

@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build_and_deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -24,25 +24,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'yarn'
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
-
-      - name: Build the site
-        run: yarn build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site/'
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
